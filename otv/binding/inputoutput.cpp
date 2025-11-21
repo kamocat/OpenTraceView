@@ -23,7 +23,7 @@
 
 
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include <otv/prop/bool.hpp>
 #include <otv/prop/double.hpp>

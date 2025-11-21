@@ -28,7 +28,7 @@
 #include <otv/prop/enum.hpp>
 #include <otv/prop/int.hpp>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::optional;
 

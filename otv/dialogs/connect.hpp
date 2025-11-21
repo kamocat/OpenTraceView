@@ -34,7 +34,7 @@
 #include <QSpinBox>
 #include <QVBoxLayout>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::shared_ptr;
 

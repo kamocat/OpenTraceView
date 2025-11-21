@@ -21,7 +21,7 @@
 
 #include <QString>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include <otv/devicemanager.hpp>
 

@@ -98,28 +98,28 @@ linguist_dep = dependency('qt6', modules: 'LinguistTools', required: false)
 libopentracecapture_dep = dependency('opentracecapture')
 
 # libopentracecapture C++ bindings - may fail if glibmm version mismatch
-libopentracecapturecxx_dep = dependency('libopentracecapturecxx', required: false)
-if not libopentracecapturecxx_dep.found()
+libopentracecapture_dep = dependency('libopentracecapture', required: false)
+if not libopentracecapture_dep.found()
   # Fallback: find library directly and use same glibmm as we have
-  libopentracecapturecxx_lib = compiler.find_library('opentracecapturecxx', required: true)
+  libopentracecapture_lib = compiler.find_library('opentracecapture', required: true)
   
   # Try to find the include directory
   cxx_inc_dirs = []
   foreach prefix : ['/usr/local', '/usr', '/opt/homebrew']
-    inc_dir = prefix / 'include' / 'libopentracecapturecxx'
+    inc_dir = prefix / 'include' / 'opentracecapture'
     if fs.is_dir(inc_dir)
       cxx_inc_dirs += include_directories(inc_dir)
     endif
   endforeach
   
-  libopentracecapturecxx_dep = declare_dependency(
-    dependencies: [libopentracecapturecxx_lib, glibmm_dep],
+  libopentracecapture_dep = declare_dependency(
+    dependencies: [libopentracecapture_lib, glibmm_dep],
     include_directories: cxx_inc_dirs
   )
 endif
 
 # Optional dependencies
-deps = [glib_dep, glibmm_dep] + qt_deps + [libopentracecapture_dep, libopentracecapturecxx_dep]
+deps = [glib_dep, glibmm_dep] + qt_deps + [libopentracecapture_dep, libopentracecapture_dep]
 
 if enable_flow
   deps += dependency('gstreamermm-1.0', version: '>=1.8.0')

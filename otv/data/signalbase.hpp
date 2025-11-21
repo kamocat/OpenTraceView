@@ -34,7 +34,7 @@
 #include <QTimer>
 #include <QVariant>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "segment.hpp"
 

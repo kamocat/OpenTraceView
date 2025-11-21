@@ -22,7 +22,7 @@
 #include <QCheckBox>
 #include <QDebug>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "bool.hpp"
 

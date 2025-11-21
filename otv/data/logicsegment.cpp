@@ -30,7 +30,7 @@
 #include "logic.hpp"
 #include "logicsegment.hpp"
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::lock_guard;
 using std::recursive_mutex;

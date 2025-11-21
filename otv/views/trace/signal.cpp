@@ -28,7 +28,7 @@
 #include <QLineEdit>
 #include <QMenu>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "otv/data/signalbase.hpp"
 

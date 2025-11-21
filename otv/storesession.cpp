@@ -33,7 +33,7 @@
 #include <otv/globalsettings.hpp>
 #include <otv/session.hpp>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::deque;
 using std::ios_base;

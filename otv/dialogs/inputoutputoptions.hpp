@@ -27,7 +27,7 @@
 
 #include <otv/binding/inputoutput.hpp>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::map;
 using std::shared_ptr;

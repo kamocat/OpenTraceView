@@ -23,7 +23,7 @@
 #include <QLineEdit>
 #include <QSpinBox>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "string.hpp"
 

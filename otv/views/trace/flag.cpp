@@ -27,7 +27,7 @@
 #include <QMenu>
 #include <QApplication>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include <otv/widgets/popup.hpp>
 

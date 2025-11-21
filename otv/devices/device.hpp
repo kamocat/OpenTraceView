@@ -23,7 +23,7 @@
 #include <memory>
 #include <string>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::shared_ptr;
 using std::string;

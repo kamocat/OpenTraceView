@@ -22,7 +22,7 @@
 #include <QTimer>
 #include <QToolTip>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include <otv/devicemanager.hpp>
 #include <otv/devices/device.hpp>

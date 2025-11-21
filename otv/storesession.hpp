@@ -33,7 +33,7 @@
 
 #include <QObject>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::atomic;
 using std::string;

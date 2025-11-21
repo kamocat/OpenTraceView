@@ -29,7 +29,7 @@
 #include <QLabel>
 #include <QSlider>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "enum.hpp"
 

@@ -47,7 +47,7 @@
 #include "otv/data/signalbase.hpp"
 #include "otv/globalsettings.hpp"
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::abs;
 using std::deque;

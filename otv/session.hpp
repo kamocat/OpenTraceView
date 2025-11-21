@@ -51,7 +51,7 @@
 #include "util.hpp"
 #include "views/viewbase.hpp"
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::deque;
 using std::function;

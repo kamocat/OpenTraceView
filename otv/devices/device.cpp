@@ -24,7 +24,7 @@
 #include <QDebug>
 #include <QString>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "device.hpp"
 

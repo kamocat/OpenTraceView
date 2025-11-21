@@ -22,7 +22,7 @@
 #include <opentracedecode/opentracedecode.h>
 #endif
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "otv/session.hpp"
 #include "otv/util.hpp"

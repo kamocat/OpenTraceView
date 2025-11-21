@@ -55,7 +55,7 @@
 #include "views/trace/signal.hpp"
 #include "views/trace/view.hpp"
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #ifdef ENABLE_FLOW
 #include <gstreamermm.h>

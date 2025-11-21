@@ -55,7 +55,7 @@
 #include <otv/data/decodesignal.hpp>
 #endif
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::back_inserter;
 using std::copy;

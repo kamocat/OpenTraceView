@@ -40,7 +40,7 @@
 #include <QScrollBar>
 #include <QVBoxLayout>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "view.hpp"
 

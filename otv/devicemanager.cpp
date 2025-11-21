@@ -28,7 +28,7 @@
 #include <stdexcept>
 #include <string>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include <QApplication>
 #include <QDebug>

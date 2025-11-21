@@ -22,7 +22,7 @@
 
 #include <atomic>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "file.hpp"
 

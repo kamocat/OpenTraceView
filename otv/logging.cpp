@@ -28,7 +28,7 @@
 #include <opentracedecode/opentracedecode.h> /* First, so we avoid a _POSIX_C_SOURCE warning. */
 #endif
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include <QApplication>
 

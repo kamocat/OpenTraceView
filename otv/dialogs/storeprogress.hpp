@@ -28,7 +28,7 @@
 
 #include <otv/storesession.hpp>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::atomic;
 using std::map;

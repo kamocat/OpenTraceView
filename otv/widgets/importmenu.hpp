@@ -25,7 +25,7 @@
 #include <QMenu>
 #include <QSignalMapper>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::shared_ptr;
 using std::vector;

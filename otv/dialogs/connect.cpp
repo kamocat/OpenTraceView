@@ -19,7 +19,7 @@
 
 #include <cassert>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include <QGroupBox>
 #include <QLabel>

@@ -27,7 +27,7 @@
 #include <string>
 #include <vector>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::list;
 using std::map;

@@ -34,7 +34,7 @@
 
 #include <otv/widgets/popup.hpp>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::function;
 using std::map;

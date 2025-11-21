@@ -22,7 +22,7 @@
 #include <QDebug>
 #include <QDoubleSpinBox>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "double.hpp"
 

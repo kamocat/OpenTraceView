@@ -26,7 +26,7 @@
 
 #include <QObject>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::enable_shared_from_this;
 using std::pair;

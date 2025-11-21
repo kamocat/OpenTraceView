@@ -56,7 +56,7 @@
 #include "views/tabular_decoder/view.hpp"
 #endif
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::dynamic_pointer_cast;
 using std::make_shared;

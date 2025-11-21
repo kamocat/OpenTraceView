@@ -24,7 +24,7 @@
 
 #include <otv/prop/property.hpp>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::shared_ptr;
 

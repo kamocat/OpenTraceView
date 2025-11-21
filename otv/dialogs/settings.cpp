@@ -49,7 +49,7 @@
 #include "otv/logging.hpp"
 #include "otv/widgets/colorbutton.hpp"
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #ifdef ENABLE_DECODE
 #include <opentracedecode/opentracedecode.h>

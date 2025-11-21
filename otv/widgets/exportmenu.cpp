@@ -22,7 +22,7 @@
 #include <string>
 #include <utility>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "exportmenu.hpp"
 

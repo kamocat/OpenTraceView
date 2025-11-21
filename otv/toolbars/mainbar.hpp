@@ -38,7 +38,7 @@
 #include <otv/widgets/popuptoolbutton.hpp>
 #include <otv/widgets/sweeptimingwidget.hpp>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 using std::shared_ptr;
 

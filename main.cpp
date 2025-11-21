@@ -33,7 +33,7 @@
 #include <libsigrokflow/libsigrokflow.hpp>
 #endif
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include <QCheckBox>
 #include <QDebug>

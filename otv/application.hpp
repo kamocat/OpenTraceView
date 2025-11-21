@@ -26,7 +26,7 @@
 #include <QStringList>
 #include <QTranslator>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "devicemanager.hpp"
 #include "globalsettings.hpp"

@@ -26,7 +26,7 @@ extern "C" {
 } /* First, so we avoid a _POSIX_C_SOURCE warning. */
 #include <boost/test/unit_test.hpp>
 
-#include <libopentracecapturecxx.hpp>
+#include <libopentracecapture.h>
 
 #include "../../otv/data/decoderstack.hpp"
 #include "../../otv/devicemanager.hpp"
